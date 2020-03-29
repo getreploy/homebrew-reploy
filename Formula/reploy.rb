@@ -7,4 +7,8 @@ class Reploy < Formula
   def install
     system "echo", "hi"
   end
+
+  test do
+    system "echo", "hi"
+  end
 end
