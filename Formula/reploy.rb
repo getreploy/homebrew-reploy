@@ -2,13 +2,13 @@ class Reploy < Formula
   desc "Manage your dev environments with ease :)"
   homepage "https://github.com/getreploy/homebrew-reploy"
   url "https://cli.getreploy.com/reploy-latest.zip"
-  sha256 "e36d1d7ba167e85069f7c312b2c8afed127363afca42249e7a8ac546b8a44fab"
+  sha256 "72aa3dd579c3a770d819a065220fb004664166f6567c9b5c56a302d208f0d973"
 
   def install
-    system "echo", "hi"
+    bin.install "doppler"
   end
 
   test do
-    system "echo", "hi"
+    system "test", "hi"
   end
 end
