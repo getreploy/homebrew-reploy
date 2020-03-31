@@ -3,10 +3,10 @@ class Reploy < Formula
   homepage "https://github.com/getreploy/homebrew-reploy"
   version "0.0.1"
   url "https://cli.getreploy.com/reploy-latest.zip"
-  sha256 "a7771d00edc67f2e88a7bcf92baab20ef9f93116e659ae1eda94b155c62a7610"
+  sha256 "24c7b53be76af363aa0132e4d0967dbcb7623df324d540f61f7515990baf7c96"
 
   def install
-    bin.install "reploy"
+    bin.install "reploy-latest"
   end
 
   test do
