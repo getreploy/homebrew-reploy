@@ -2,7 +2,7 @@ class Reploy < Formula
   desc "Manage your dev environments with ease :)"
   homepage "https://github.com/getreploy/homebrew-reploy"
   url "https://cli.getreploy.com/reploy-latest.zip"
-  sha256 1cb818c6da5fde3378b74ec24b8b9b81f51c6430b34a113c3a1bf1377bd1aefd
+  sha256 "e36d1d7ba167e85069f7c312b2c8afed127363afca42249e7a8ac546b8a44fab"
 
   def install
     system "echo", "hi"
