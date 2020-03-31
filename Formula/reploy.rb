@@ -2,8 +2,8 @@ class Reploy < Formula
   desc "Manage your dev environments with ease :)"
   homepage "https://github.com/getreploy/homebrew-reploy"
   version "0.0.1"
-  url "https://cli.getreploy.com/reploy-a2a430b0e556ba1186501ac4735e795b859d7d68.zip"
-  sha256 "5853fa1fdf87d6af857c7ad696a0a8631a7f3397e35067d91f96ed45947489ec"
+  url "https://cli.getreploy.com/reploy-fe82d7fbbbc28c5a28162c7fe1e7d6d83bffd89a.zip"
+  sha256 "3672bb0c9619d4feaec24ced54d2047a2b6038b10fc286e29d9c480de40ea924"
 
   def install
     bin.install "reploy"
@@ -12,9 +12,6 @@ class Reploy < Formula
   test do
     system "test", "hi"
   end
-
-  
-  plist_options :manual => "reploy watch"
 
   def plist
     <<~EOS
