@@ -2,8 +2,8 @@ class Reploy < Formula
   desc "Manage your dev environments with ease :)"
   homepage "https://github.com/getreploy/homebrew-reploy"
   version "0.0.1"
-  url "https://cli.getreploy.com/reploy-1527f7064fbebd79efc3c851e9e6dfb80e0dcd20.zip"
-  sha256 "ff5366b8354feaa8f5418b8717043fe8ed1fda332dcc9243188b281d43e60716"
+  url "https://cli.getreploy.com/reploy-a2a430b0e556ba1186501ac4735e795b859d7d68.zip"
+  sha256 "5853fa1fdf87d6af857c7ad696a0a8631a7f3397e35067d91f96ed45947489ec"
 
   def install
     bin.install "reploy"
@@ -29,6 +29,11 @@ class Reploy < Formula
           </dict>
           <key>Label</key>
           <string>#{plist_name}</string>
+          <key>ProgramArguments</key>
+          <array>
+            <string>#{opt_bin}/reploy</string>
+            <string>watch</string>
+          </array>
           <key>RunAtLoad</key>
           <true/>
           <key>WorkingDirectory</key>
