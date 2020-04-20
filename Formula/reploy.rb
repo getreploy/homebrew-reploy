@@ -1,9 +1,9 @@
 class Reploy < Formula
   desc "Manage your dev environments with ease :)"
   homepage "https://github.com/getreploy/homebrew-reploy"
-  version "0.0.26"
-  url "https://cli.getreploy.com/reploy-81a33a51e66bfdb02cc66bf7022390f4fed89688.zip"
-  sha256 "3ced35856a89382859c3d9e92e2f5502f53244d8912d9715310fad24ce804e47"
+  version "0.0.27"
+  url "https://cli.getreploy.com/reploy-1ff425f8463a4e55c00e9cade054389a496ca1e4.zip"
+  sha256 "7d14a3557b0c090dd56aea6ceca55b228f5440481c90e89ae68315f91599aace"
 
   def install
     bin.install "reploy"
